@@ -2,7 +2,7 @@
 
     <servers>
         <server>
-            <id>unicorn-packages-unicorn-packages</id>
+            <id>unicorns-unicorn-packages</id>
             <username>aws</username>
             <password>${env.CODEARTIFACT_AUTH_TOKEN}</password>
         </server>
@@ -10,13 +10,13 @@
 
     <profiles>
         <profile>
-            <id>unicorn-packages-unicorn-packages</id>
+            <id>unicorns-unicorn-packages</id>
             <activation>
                 <activeByDefault>true</activeByDefault>
             </activation>
             <repositories>
                 <repository>
-                    <id>unicorn-packages-unicorn-packages</id>
+                    <id>unicorns-unicorn-packages</id>
                     <url>https://unicorn-packages-970547333525.d.codeartifact.eu-west-1.amazonaws.com/maven/unicorn-packages/</url>
                 </repository>
             </repositories>
@@ -25,8 +25,8 @@
 
     <mirrors>
         <mirror>
-            <id>unicorn-packages-unicorn-packages</id>
-            <name>unicorn-packages-unicorn-packages</name>
+            <id>unicorns-unicorn-packages</id>
+            <name>unicorns-unicorn-packages</name>
             <url>https://unicorn-packages-970547333525.d.codeartifact.eu-west-1.amazonaws.com/maven/unicorn-packages/</url>
             <mirrorOf>*</mirrorOf>
         </mirror>

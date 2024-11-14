@@ -17,7 +17,7 @@
             <repositories>
                 <repository>
                     <id>unicorns-unicorn-packages</id>
-                    <url>https://unicorn-packages-970547333525.d.codeartifact.eu-west-1.amazonaws.com/maven/unicorn-packages/</url>
+                    <url>https://unicorns-970547333525.d.codeartifact.eu-west-1.amazonaws.com/maven/unicorn-packages/</url>
                 </repository>
             </repositories>
         </profile>
@@ -27,7 +27,7 @@
         <mirror>
             <id>unicorns-unicorn-packages</id>
             <name>unicorns-unicorn-packages</name>
-            <url>https://unicorn-packages-970547333525.d.codeartifact.eu-west-1.amazonaws.com/maven/unicorn-packages/</url>
+            <url>https://unicorns-970547333525.d.codeartifact.eu-west-1.amazonaws.com/maven/unicorn-packages/</url>
             <mirrorOf>*</mirrorOf>
         </mirror>
     </mirrors>
